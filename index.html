@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+  <!-- add icon link -->
+  <link rel="icon" href="./img/icon1.icon" type="image/x-icon">
+  <!-- scrollReveal property -->
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script>
+    window.sr = ScrollReveal({
+      distance: '50px',                                               //for animation of page scroll
+      duration: 1000,
+      easing: 'ease',
+      mobile: true,
+      reset: true,
+      viewFactor: 0.4,
+    });
+  </script>
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="font.css">
+  <title>Product</title>
+</head>
+
+<body>
+
+  <!--============================================== product card ===========================================-->
+  <div class="productPoolContainer">
+    <div class="container-fluid">
+      <div class="text-center ">
+        <h1 class="text-center gara productHeading">Products available on pool</h1>
+        <p class="text-center subTitle text-white">Buy tickets to win luxury products on pool</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col">
+
+          <div class="poolCard hoverable">
+            <div class="triangle"></div>
+            <span class="badge badge-gold">
+              <i class="fas fa-rupee-sign fa-1x"></i> 300
+            </span>
+
+            <div class="poolCardImgContainer ">
+              <img class="card-img-top" src="img/products/Black Versa 2/img1.jpg" alt="Card image cap">
+            </div>
+
+            <!-- on hover content  -->
+            <div class="poolOnHoverContent">
+              <div class="background">
+                <div class="Gbtn btn-one">
+                  <span class="gara poolOnHoverBtnContent">BUY TICKETS</span>
+                </div>
+              </div>
+            </div>
+            <!--end of on hover content  -->
+
+            <div class="card-body productDesc">
+              <div class="starRating text-center">
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+              </div>
+
+              <br>
+
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="text-align: right;" aria-valuenow="<?php echo $perc;?>" aria-valuemin="0"
+                  aria-valuemax="100"> </div>
+                <!--write this in code when needed style="width: 75%; -->
+                <span class="pl-4">1 left</span>
+              </div>
+
+              <div class="text-left soldContent">
+                <span class="text-left pt-1 gara text-muted">99% Sold</span>
+              </div>
+              <!-- end of progress bar  -->
+              <a href="addtowishlist.php?id=<?php echo $prodr1['id']; ?>">
+                <i class="fas fa-shopping-bag pt-4 bag float-right" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"></i>
+              </a>
+
+              <h3 class="productBrand text-center">
+                <!--mt-4-->
+                <strong class="gara">EMPORIO ARMANI</strong>
+              </h3>
+              <p class="productName text-center gara mb-3"> Women Green Analogue Watch AR11145I_SOR </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- second col -->
+
+        <div class="col-md-3 col">
+
+          <div class="poolCard hoverable">
+            <div class="triangle"></div>
+            <span class="badge badge-gold">
+              <i class="fas fa-rupee-sign fa-1x"></i> 300
+            </span>
+
+            <div class="poolCardImgContainer ">
+              <img class="card-img-top" src="img/products/Black Versa 2/img1.jpg" alt="Card image cap">
+            </div>
+
+            <!-- on hover content  -->
+            <div class="poolOnHoverContent">
+              <div class="background">
+                <div class="Gbtn btn-one">
+                  <span class="gara poolOnHoverBtnContent">BUY TICKETS</span>
+                </div>
+              </div>
+            </div>
+            <!--end of on hover content  -->
+
+            <div class="card-body productDesc">
+              <div class="starRating text-center">
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+              </div>
+
+              <br>
+
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="text-align: right;" aria-valuenow="<?php echo $perc;?>" aria-valuemin="0"
+                  aria-valuemax="100"> </div>
+                <!--write this in code when needed style="width: 75%; -->
+                <span class="pl-4">1 left</span>
+              </div>
+
+              <div class="text-left soldContent">
+                <span class="text-left pt-1 gara text-muted">99% Sold</span>
+              </div>
+              <!-- end of progress bar  -->
+              <a href="addtowishlist.php?id=<?php echo $prodr1['id']; ?>">
+                <i class="fas fa-shopping-bag pt-4 bag float-right" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"></i>
+              </a>
+
+              <h3 class="productBrand text-center">
+                <!--mt-4-->
+                <strong class="gara">EMPORIO ARMANI</strong>
+              </h3>
+              <p class="productName text-center gara mb-3"> Women Green Analogue Watch AR11145I_SOR </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- third col -->
+
+        <div class="col-md-3 col">
+
+          <div class="poolCard ">
+            <div class="triangle"></div>
+            <span class="badge badge-gold">
+              <i class="fas fa-rupee-sign fa-1x"></i> 300
+            </span>
+
+            <div class="poolCardImgContainer ">
+              <img class="card-img-top" src="img/products/Black Versa 2/img1.jpg" alt="Card image cap">
+            </div>
+
+            <!-- on hover content  -->
+            <div class="poolOnHoverContent">
+              <div class="background">
+                <div class="Gbtn btn-one">
+                  <span class="gara poolOnHoverBtnContent">BUY TICKETS</span>
+                </div>
+              </div>
+            </div>
+            <!--end of on hover content  -->
+
+            <div class="card-body productDesc">
+              <div class="starRating text-center">
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+              </div>
+
+              <br>
+
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="text-align: right;" aria-valuenow="<?php echo $perc;?>" aria-valuemin="0"
+                  aria-valuemax="100"> </div>
+                <!--write this in code when needed style="width: 75%; -->
+                <span class="pl-4">1 left</span>
+              </div>
+
+              <div class="text-left soldContent">
+                <span class="text-left pt-1 gara text-muted">99% Sold</span>
+              </div>
+              <!-- end of progress bar  -->
+              <a href="addtowishlist.php?id=<?php echo $prodr1['id']; ?>">
+                <i class="fas fa-shopping-bag pt-4 bag float-right" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"></i>
+              </a>
+
+              <h3 class="productBrand text-center">
+                <!--mt-4-->
+                <strong class="gara">EMPORIO ARMANI</strong>
+              </h3>
+              <p class="productName text-center gara mb-3"> Women Green Analogue Watch AR11145I_SOR </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- fourth col -->
+
+        <div class="col-md-3 col">
+
+          <div class="poolCard hoverable">
+            <div class="triangle"></div>
+            <span class="badge badge-gold">
+              <i class="fas fa-rupee-sign fa-1x"></i> 300
+            </span>
+
+            <div class="poolCardImgContainer ">
+              <img class="card-img-top" src="img/products/Black Versa 2/img1.jpg" alt="Card image cap">
+            </div>
+
+            <!-- on hover content  -->
+            <div class="poolOnHoverContent">
+              <div class="background">
+                <div class="Gbtn btn-one">
+                  <span class="gara poolOnHoverBtnContent">BUY TICKETS</span>
+                </div>
+              </div>
+            </div>
+            <!--end of on hover content  -->
+
+            <div class="card-body productDesc">
+              <div class="starRating text-center">
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+                <span class="fa fa-star starIcon mr-1"></span>
+              </div>
+
+              <br>
+
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="text-align: right;" aria-valuenow="<?php echo $perc;?>" aria-valuemin="0"
+                  aria-valuemax="100"> </div>
+                <!--write this in code when needed style="width: 75%; -->
+                <span class="pl-4">1 left</span>
+              </div>
+
+              <div class="text-left soldContent">
+                <span class="text-left pt-1 gara text-muted">99% Sold</span>
+              </div>
+              <!-- end of progress bar  -->
+              <a href="addtowishlist.php?id=<?php echo $prodr1['id']; ?>">
+                <i class="fas fa-shopping-bag pt-4 bag float-right" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"></i>
+              </a>
+
+              <h3 class="productBrand text-center">
+                <!--mt-4-->
+                <strong class="gara">EMPORIO ARMANI</strong>
+              </h3>
+              <p class="productName text-center gara mb-3"> Women Green Analogue Watch AR11145I_SOR </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--============================================== product card ===========================================-->
+  <!-- newsletter section -->
+  <div class="newsletterContainer">
+    <div class="container-fluid">
+      <div class="newsletterContent text-center ">
+        <h1 class="gara newsletterHeading">Newsletter</h1>
+        <p class="nunito newsletterSubHeading">Subscribe to our newsletter for updates.</p>
+      </div>
+      <div class="newsletterForm text-center">
+        <input type="email" name="email" id="" class="emailInput" placeholder="Your Email...">
+        <input type="submit" value="Subscribe" class="subscribe gara text-uppercase">
+      </div>
+    </div>
+  </div>
+  <!--end of newsletter section -->
+  <!--start of banner section  -->
+  <div class="statisticsBannerContainer">
+    <div class="container-fluid">
+      <div class="row statisticsBannerRow text-center">
+        <div class="col-sm-3 col-md-3 col">
+          <h3 class="statisticsHeading text-capitalize gara">Tickets Sold</h3>
+          <p class="statisticsData nunito">500+</p>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col">
+          <h3 class="statisticsHeading text-capitalize gara">Winners</h3>
+          <p class="statisticsData nunito">10</p>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col">
+          <h3 class="statisticsHeading text-capitalize gara">Engagement</h3>
+          <p class="statisticsData nunito">1 million+</p>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col">
+          <h3 class="statisticsHeading text-capitalize gara">Quality</h3>
+          <p class="statisticsData nunito">p4l Approved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end of banner section  -->
+  <!-- main body -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n "
+    crossorigin="anonymous "></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo "
+    crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 "
+    crossorigin="anonymous "></script>
+  <!-- MDB core JavaScript -->
+  <script type="/text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js "></script>
+  <script src="login.js"></script>
+</body>
+
+</html>
