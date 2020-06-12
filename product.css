@@ -7,7 +7,7 @@
 
 .productPoolContainer {
   background: #102054;
-  height: auto;
+  height: 100vh;
 }
 
 .productHeading {
@@ -318,7 +318,7 @@ div[class*=background] {
 
 @media (max-width: 575.98px) {
   .productPoolContainer {
-    height: 122vh;
+    height: auto;
   }
   .categoryContainer .categoryTitle .title, .brandSearchContainer .brandSearchTitle .title {
     font-size: 1.5vw;
@@ -439,6 +439,7 @@ div[class*=background] {
     height: 42px;
     width: 120px;
   }
+  
 }
 
 /* media queries for landscape phones, 576px and up responsivness */
