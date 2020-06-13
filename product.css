@@ -598,7 +598,7 @@ div[class*=background] {
 
 @media (max-width: 575.98px) {
   .productPoolContainer {
-    height: 122vh;
+    height: auto;
   }
   .categoryContainer .categoryTitle .title, .brandSearchContainer .brandSearchTitle .title {
     font-size: 1.5vw;
