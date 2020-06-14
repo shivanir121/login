@@ -682,10 +682,10 @@ div[class*=background] {
     transform: scale(1.1);
   }
   .categoryContainer .categoryTitle::before, .brandSearchContainer .brandSearchTitle::before {
-    border-width: 3px;
+    border-width: 2px;
   }
   .categoryContainer .categoryTitle::after, .brandSearchContainer .brandSearchTitle::after {
-    border-width: 3px;
+    border-width: 2px;
   }
   .categoryContainer:hover .categoryTitle:before, .brandSearchContainer:hover .brandSearchTitle:before {
     top: 0px;
@@ -874,10 +874,10 @@ div[class*=background] {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .categoryContainer .categoryTitle::before {
-    border-width: 3px;
+    border-width: 2px;
   }
   .categoryContainer .categoryTitle::after {
-    border-width: 3px;
+    border-width: 2px;
   }
   .categoryContainer:hover .categoryTitle:before {
     top: 3px;
@@ -892,10 +892,10 @@ div[class*=background] {
   }
   /*shop by brand*/
   .brandSearchContainer .brandSearchTitle::before {
-    border-width: 3px;
+    border-width: 2px;
   }
   .brandSearchContainer .brandSearchTitle::after {
-    border-width: 3px;
+    border-width: 2px;
   }
   .brandSearchContainer:hover .brandSearchTitle:before {
     top: 3px;
@@ -992,10 +992,10 @@ div[class*=background] {
     height: auto;
   }
   .categoryContainer .categoryTitle::before {
-    border-width: 3px;
+    border-width: 2px;
   }
   .categoryContainer .categoryTitle::after {
-    border-width: 3px;
+    border-width: 2px;
   }
   .categoryContainer:hover .categoryTitle:before {
     top: 5px;
@@ -1010,10 +1010,10 @@ div[class*=background] {
   }
   /*shop by brand*/
   .brandSearchContainer .brandSearchTitle::before {
-    border-width: 3px;
+    border-width: 2px;
   }
   .brandSearchContainer .brandSearchTitle::after {
-    border-width: 3px;
+    border-width: 2px;
   }
   .brandSearchContainer:hover .brandSearchTitle:before {
     top: 5px;
