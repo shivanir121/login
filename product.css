@@ -9,29 +9,38 @@
   margin: 0 auto;
 }
 
-.heading {
+.heading, .brandHeading {
   color: #b98b43;
-  margin-bottom: 24px;
-  margin-top: 24px;
-  font-size: 3.3vw;
+  margin-bottom: 2.083vw;
+  font-size: 2.865vw;
+  margin-top: 4.167vw;
+}
+
+.brandHeading {
+  padding-top: 4.167vw;
 }
 
 /*================================category section & search by brand section===============================================*/
 
 .productCategory, .brandSearch {
-  margin-bottom: 1rem;
-  padding-top: 1px;
-  margin-top: 32px;
-  padding-bottom: 50px;
+  /* margin-bottom: 1rem;
+  padding-top: 1px; */
+  /* margin-top: 32px; */
+  /* padding-bottom: 50px; */
 }
 
 .brandSearch {
   background: #f5efe2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 4.688vw;
+  ;
 }
 
 .categoryContainer, .brandSearchContainer {
   position: relative;
   overflow: hidden;
+  width: 17.188vw;
 }
 
 .categoryContainer .categoryImgContainer img, .brandSearchContainer .brandSearchImgContainer img {
@@ -48,7 +57,7 @@
   width: 50%;
   height: 40%;
   /*border:3px solid #333;*/
-  border-width: 6px;
+  border-width: 2px;
   border-style: solid;
   border-image: linear-gradient( to right, #8e602c, #b98b43, #f8ed8d, #b98b43, #8e602c) 1 0 0 1;
   border-right: 3px solid transparent;
@@ -65,7 +74,7 @@
   width: 50%;
   height: 40%;
   /*border:3px solid #222;*/
-  border-width: 6px;
+  border-width: 2px;
   border-style: solid;
   border-image: linear-gradient( to right, #8e602c, #b98b43, #f8ed8d, #b98b43, #8e602c) 0 1 1 0;
   border-left: 3px solid transparent;
@@ -120,7 +129,7 @@
   width: 50%;
   margin: 10px auto;
   /*border-bottom:2px solid #222;*/
-  border-width: 3px;
+  border-width: 2px;
   border-style: solid;
   border-image: linear-gradient( to right, #8e602c, #b98b43, #f8ed8d, #b98b43, #8e602c) 1 0 0 1;
 }
@@ -144,6 +153,21 @@
   }
 }
 
+/* @keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(38, 38, 38, 0.4);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(38, 38, 38, 0.2);
+    transform: translatey(5px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(38, 38, 38, 0.4);
+    transform: translatey(0px);
+  }
+} */
+
 .floatBtn {
   box-sizing: border-box;
   transform: translatey(0px);
@@ -158,10 +182,12 @@
 
 .blueBtn {
   background: #b98b43;
-  ;
   color: white;
-  padding: 16px 47px;
-  border-radius: 36px;
+  padding-top: 0.781vw;
+  padding-bottom: 0.781vw;
+  padding-left: 2.083vw;
+  padding-right: 2.083vw;
+  border-radius: 1.875vw;
 }
 
 .blueBtn:hover {
@@ -171,7 +197,7 @@
 }
 
 .blueBtn span {
-  font-size: 21px;
+  font-size: 0.938vw;
 }
 
 .goldBtn {
@@ -193,6 +219,15 @@
 }
 
 /*========================shopBy=========================*/
+
+.BtnContainer {
+  margin-top: 1.302vw;
+}
+
+.shopBy {
+  margin-top: 5.729vw;
+  margin-bottom: 5.729vw;
+}
 
 .shopByContainer {
   position: relative;
@@ -280,11 +315,6 @@
 
 /*====================Pool Product Card=========================*/
 
-.container-fluid {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .productPoolContainer {
   background: #102054;
   height: 100vh;
@@ -292,14 +322,14 @@
 
 .productHeading {
   color: #b98b43;
-  margin-bottom: 2px;
-  padding-top: 60px;
-  font-size: 3.6vw;
+  margin-bottom: 0.104vw;
+  padding-top: 3.125vw;
+  font-size: 2.865vw;
 }
 
 .subTitle {
-  font-size: 1.6vw;
-  margin-bottom: 55px;
+  font-size: 1.406vw;
+  margin-bottom: 2.865vw;
 }
 
 .poolCard {
@@ -518,14 +548,15 @@ div[class*=background] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 91px;
+  padding-top: 6.74vw;
+  padding-bottom: 6.74vw;
 }
 
 .newsletterContent {
   width: 30%;
   margin: 0 auto;
   background: #ffffffcc;
-  border-radius: 16px;
+  border-radius: 0.833vw;
 }
 
 .newsletterHeading {
@@ -554,6 +585,10 @@ div[class*=background] {
   background: #ffffffcc;
 }
 
+.emailInput:hover, .emailInput:active, .emailInput:focus {
+  background: #ffffff;
+}
+
 .subscribe {
   height: 50px;
   width: 165px;
@@ -579,7 +614,7 @@ div[class*=background] {
 }
 
 .statisticsBannerRow {
-  padding: 12px 0px 10px 0px;
+  padding: 6px 0px 6px 0px;
 }
 
 .statisticsHeading {
@@ -588,18 +623,52 @@ div[class*=background] {
 }
 
 .statisticsData {
-  font-size: 1vw;
+  font-size: 1.2vw;
   color: #b98b43;
+  margin-bottom: 0px;
 }
 
 /* End of statisticsBanner */
 
+@media (min-width: 300px) and (max-width: 600px) {
+  .statisticsHeading {
+    font-size: 2.8vw;
+    color: #b98b43;
+  }
+  .statisticsData {
+    font-size: 2vw;
+  }
+}
+
+/* categoryContainer */
+
+@media (max-width: 636px) and (min-width: 500px) {
+  .categoryContainer, .brandSearchContainer {
+    min-width: 35.74vw;
+    margin-bottom: 7.406vw;
+  }
+  .shopByContainer .shopByFigure img {
+    transition: transform 1s;
+    min-height: 30vh;
+  }
+  .BtnContainer {
+    margin-top: -6.104vw;
+  }
+  .newsletterContainer {
+    height: 43vh;
+    background: url(image/house.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 6.74vw;
+    padding-bottom: 6.74vw;
+  }
+}
+
 /* media queries for mobile responsivness */
 
-@media (max-width: 575.98px) {
-  .productPoolContainer {
-    height: auto;
-  }
+@media (max-width: 538px) {
   .categoryContainer .categoryTitle .title, .brandSearchContainer .brandSearchTitle .title {
     font-size: 1.5vw;
     color: #ffffff;
@@ -629,11 +698,33 @@ div[class*=background] {
   .categoryContainer:hover .title::after, .brandSearchContainer:hover .title::after {
     border-width: 1px;
   }
-  .blueBtn {
-    padding: 1px 14px;
-  }
   .blueBtn span {
     font-size: 12px;
+  }
+  /* pool On card  */
+  .productPoolContainer {
+    height: auto;
+  }
+  .poolCardImgContainer {
+    height: 21vh;
+    left: 10.9vw;
+    width: 40%;
+  }
+  .poolCard {
+    box-shadow: none;
+    height: 36vh;
+    border-radius: 8px;
+    background: white;
+    width: 98%;
+    position: relative;
+    margin-bottom: 29px;
+  }
+  .productPoolRow {
+    margin-top: 32px;
+    padding-bottom: 3px;
+  }
+  .poolCard .poolOnHoverContent {
+    bottom: 10vh;
   }
   .poolOnHoverBtnContent {
     letter-spacing: 1vw;
@@ -651,10 +742,6 @@ div[class*=background] {
     width: 27vw;
     padding: 0px 2px 3px 3px;
   }
-  .poolCardImgContainer {
-    height: 32vh;
-    left: 6vw;
-  }
   .soldContent {
     font-size: 2vw;
   }
@@ -664,9 +751,6 @@ div[class*=background] {
   .productName {
     font-size: 2vw;
     letter-spacing: 1px;
-  }
-  .poolCard .poolOnHoverContent {
-    bottom: 9vh;
   }
   .Gbtn::before, .Gbtn::after {
     content: '';
@@ -681,16 +765,6 @@ div[class*=background] {
   .Gbtn {
     height: 48px;
     line-height: 44px;
-  }
-  .poolCard {
-    box-shadow: none;
-    /* border: 1px solid #b98b43; */
-    height: 46vh;
-    border-radius: 8px;
-    background: white;
-    width: 98%;
-    position: relative;
-    margin-bottom: 31px;
   }
   .badge-gold {
     padding: 8px 8px;
@@ -722,6 +796,81 @@ div[class*=background] {
 }
 
 /* media queries for landscape phones, 576px and up responsivness */
+
+@media (min-width: 539px) and (max-width: 600.98px) {
+  .poolCardImgContainer {
+    height: 32vh;
+    left: 9vw;
+    width: 54%;
+  }
+  .productPoolContainer {
+    height: auto;
+  }
+  .poolCard {
+    box-shadow: none;
+    height: 52vh;
+    border-radius: 8px;
+    background: white;
+    width: 98%;
+    position: relative;
+    margin-bottom: 29px;
+  }
+  .productPoolRow {
+    margin-top: 32px;
+    padding-bottom: 3px;
+  }
+  .poolCard .poolOnHoverContent {
+    bottom: 15vh;
+  }
+  .poolOnHoverBtnContent {
+    letter-spacing: 1vw;
+    font-size: 2.2vw;
+  }
+  .starIcon {
+    font-size: 10px;
+    color: #b98b43;
+  }
+  .starRating {
+    border-radius: 16px;
+    margin: -56px auto -6px;
+    z-index: 1;
+    text-align: center;
+    width: 27vw;
+    padding: 0px 2px 3px 3px;
+  }
+  .soldContent {
+    font-size: 2vw;
+  }
+  .productBrand {
+    font-size: 2.3vw;
+  }
+  .productName {
+    font-size: 2vw;
+    letter-spacing: 1px;
+  }
+  .Gbtn::before, .Gbtn::after {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 8px;
+    left: 7px;
+    width: 92%;
+    height: 68%;
+    z-index: 1;
+  }
+  .Gbtn {
+    height: 48px;
+    line-height: 44px;
+  }
+  .badge-gold {
+    padding: 8px 8px;
+    right: 15px;
+    font-size: 10px;
+  }
+  .triangle {
+    right: 57px;
+  }
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .categoryContainer .categoryTitle::before {
@@ -759,13 +908,15 @@ div[class*=background] {
   .brandSearchContainer:hover .title::after {
     border-width: 1px;
   }
-  .blueBtn {
-    padding: 6px 30px;
-  }
   .blueBtn span {
     font-size: 12px;
   }
   /* ======================= */
+  .poolCardImgContainer {
+    height: 35vh;
+    left: 9vw;
+    width: 54%;
+  }
   .poolOnHoverBtnContent {
     letter-spacing: 1vw;
     font-size: 2vw;
@@ -781,10 +932,6 @@ div[class*=background] {
     text-align: center;
     width: 27vw;
     padding: 0px 2px 3px 3px;
-  }
-  .poolCardImgContainer {
-    height: 43vh;
-    left: 6vw;
   }
   .soldContent {
     font-size: 2vw;
@@ -811,15 +958,15 @@ div[class*=background] {
   }
   .Gbtn {
     height: 54px;
-    line-height: 47px;
+    line-height: 49px;
   }
   .poolCard {
-    height: 62vh;
+    height: 54vh;
     width: 98%;
     margin-bottom: 31px;
   }
   .productPoolContainer {
-    height: 156vh;
+    height: auto;
   }
   .newsletterContent {
     width: 65%;
@@ -830,13 +977,19 @@ div[class*=background] {
   .newsletterSubHeading {
     font-size: 14px;
   }
+  .newsletterContainer {
+    height: 43vh;
+  }
 }
 
 /* media queries for tablets ,768 and up responsivness */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .newsletterContainer {
+    height: 48vh;
+  }
   .productPoolContainer {
-    height: 85vh;
+    height: auto;
   }
   .categoryContainer .categoryTitle::before {
     border-width: 3px;
@@ -873,9 +1026,9 @@ div[class*=background] {
   .brandSearchContainer:hover .title::after {
     border-width: 1px;
   }
-  .blueBtn {
+  /* .blueBtn {
     padding: 6px 30px;
-  }
+  } */
   .blueBtn span {
     font-size: 12px;
   }
@@ -900,7 +1053,7 @@ div[class*=background] {
     height: 32vh;
   }
   .soldContent {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
   .productBrand {
     font-size: 1.5vw;
@@ -946,8 +1099,36 @@ div[class*=background] {
 /* media queries for large devices 992px and up responsivness */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .blueBtn {
-    padding: 9px 39px;
+  .newsletterContainer {
+    height: 53vh;
+  }
+  .productPoolContainer {
+    height: auto;
+  }
+  .productPoolRow {
+    margin-top: 32px;
+    padding-bottom: 32px;
+  }
+  .Gbtn {
+    position: relative;
+    color: white;
+    width: 168px;
+    height: 56px;
+    line-height: 53px;
+    transition: all 0.3s;
+  }
+  .Gbtn::before, .Gbtn::after {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    height: 71%;
+    z-index: 1;
+  }
+  .soldContent {
+    font-size: 1.5vw;
   }
   .blueBtn span {
     font-size: 16px;
@@ -970,6 +1151,34 @@ div[class*=background] {
 /* media queries for larger devices, 1200px and up responsivness */
 
 @media (min-width: 1200px) and (max-width: 1400px) {
+  .productPoolRow {
+    margin-top: 32px;
+    padding-bottom: 3.125vw;
+  }
+  .productPoolContainer {
+    height: auto;
+  }
+  .Gbtn {
+    position: relative;
+    color: white;
+    width: 216px;
+    height: 56px;
+    line-height: 53px;
+    transition: all 0.3s;
+  }
+  .Gbtn::before, .Gbtn::after {
+    content: '';
+    position: absolute;
+    transition: all 0.3s;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    height: 71%;
+    z-index: 1;
+  }
+  .btn-one::before {
+    left: 0px;
+  }
   .poolCardImgContainer {
     height: 36vh;
   }
@@ -981,23 +1190,28 @@ div[class*=background] {
     height: 43vh;
   }
   .poolCard .poolOnHoverContent {
-    bottom: 11.4vh;
+    bottom: 12.4vh;
   }
 }
 
 @media (min-width:1400px) and (max-width: 1920px) {
   .poolCardImgContainer {
-    height: 36vh;
+    height: 49vh;
   }
   .poolCard {
     width: 100%;
-    height: 61vh;
-  }
-  .poolCardImgContainer {
-    height: 43vh;
+    height: 67vh;
   }
   .poolCard .poolOnHoverContent {
     bottom: 11.4vh;
+  }
+  .Gbtn {
+    position: relative;
+    color: white;
+    width: 254px;
+    height: 64px;
+    line-height: 64px;
+    transition: all 0.3s;
   }
 }
 
